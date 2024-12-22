@@ -1,7 +1,7 @@
 ---
 title: "Arroz com Feijão: A Base Nutritiva para Projetos que Funcionam"
 seoTitle: "Arroz com Feijão: A Base Nutritiva para Projetos que Funcionam"
-seoDescription: "O projeto que você trabalha mais parece uma sopa de letrinha? vamos falar sobre empatia!  "
+seoDescription: "O projeto que você trabalha mais parece uma sopa de letrinha? vamos falar sobre empatia!"
 datePublished: Sat Dec 21 2024 13:31:06 GMT+0000 (Coordinated Universal Time)
 cuid: cm4y7wkzk003j09mt98esdsoy
 slug: arroz-com-feijao-a-base-nutritiva-para-projetos-que-funcionam
@@ -24,11 +24,11 @@ Já se deparou com a situação de ter que sustentar um produto, e ninguém sabe
 
 Na rotina sufocante dos desenvolvedores é muito comum a sensação de urgência e sinceramente… se você se deixar levar por este ritmo, você vai ser engolido.
 
-Com toda certeza, depois de tando tempo trabalhando com desenvolvimento, uma das frases que mais ouvi ao longo da minha carreira foi: “não dá tempo”, e consequentemente, pilhas e pilhas de linha de código sobem sem o mínimo de empatia para a produção. Empatia? como assim…? sim sim, empatia, tenho certeza que você não está pensando no próximo desenvolvedor que vai olhar para o código que você escreveu, e arrisco a dizer que, não pensou em você mesmo.
+Com toda certeza, depois de tanto tempo trabalhando com desenvolvimento, uma das frases que mais ouvi ao longo da minha carreira foi: “não dá tempo”, e consequentemente, pilhas e pilhas de linha de código sobem sem o mínimo de empatia para a produção. Empatia? como assim…? sim sim, empatia, tenho certeza que você não está pensando no próximo desenvolvedor que vai olhar para o código que você escreveu, e arrisco a dizer que, não pensou em você mesmo.
 
 Meses se passaram desde o ultimo commit naquele projeto esquecido que você deu manutenção, e olha que incrível, ele deu problema, e agora? quem foi o dev que escreveu aquelas linhas de código? vixx… foi eu mesmo 😅, mas… sei lá! faz tanto tempo, nem sinto que foi eu quem escreveu aquilo 🤷, já não me reconheço mais naqueles linhas de código.
 
-É meio louco pensar nisso, mas, sim, você já não é mais o mesmo, e naquele momento só se preocupou em entregar a solução, e muito provavel que achou completa perda de tempo investir algum tempo na documentação do projeto. Agora você se vê tendo que fazer o caminho do zero, entendendo novamente o fluxo inteiro, e tendo que investir novamente horas até chegar na solução.
+É meio louco pensar nisso, mas, sim, você já não é mais o mesmo, e naquele momento só se preocupou em entregar a solução, e muito provável que achou completa perda de tempo investir algum tempo na documentação do projeto. Agora você se vê tendo que fazer o caminho do zero, entendendo novamente o fluxo inteiro, e tendo que investir novamente horas até chegar na solução.
 
 A conclusão que eu cheguei com isto é, **nunca é perda de tempo investir alguns minutos dando contexto suficiente para o seu “eu” do futuro**, tenha empatia, nem que seja consigo mesmo, se é um comando, anote, coloque exemplos, explique como se estivesse explicando para uma criança, tenho certeza que você vai agradecer o seu “eu” do passado.
 
@@ -44,7 +44,7 @@ Já passei por algumas empresas e muitas delas não investiram sequer um dia aut
 
 A minha recomendação é: se eu demoro mais de minutos para subir um projeto, algo de errado não está certo. Atualmente existem diversas formas de automatizar o processo de build do sistema, seja através de bash scripts ou makefiles;
 
-Como um profissional de respeito, é seu dever se preocupar com o mínimo. Como instalar e configurar o seu sistema, como usar e preferencialmente com exeplos de uso. Não esqueça que se for necessário permissões adicionais para sustentar o sistema, uma boa documentação deve ajudar o desenvolvedor, guiando ele para abertura de chamados ou aquisição das devidas permissões.
+Como um profissional de respeito, é seu dever se preocupar com o mínimo. Como instalar e configurar o seu sistema, como usar e preferencialmente com exemplos de uso. Não esqueça que se for necessário permissões adicionais para sustentar o sistema, uma boa documentação deve ajudar o desenvolvedor, guiando ele para abertura de chamados ou aquisição das devidas permissões.
 
 Abaixo vou deixar um exemplo de readme, ele questiona alguns pontos que vejo como interessantes quando tenho o primeiro contato com o sistema, e… só pra reforçar… é o mínimo.
 
@@ -188,7 +188,7 @@ class BadWordsFilterTest extends TestCase
 }
 ```
 
-Como podemos ver, em momendo algum eu precisei testar diretamente os métodos privados, afinal, a interface pública da classe, expõe a abstração que o cliente tem interesse, os detalhes que giram em torno dessa abstração precisam ser testadas mudando o input, mas usando o mesmo método público. Então… isso significa que eu não deva testar métodos privados? Não não, segura ai… extremos são ruins, e eu evito me guiar por eles, quando eu desenvolvo, espero seguir um meio termo, e isso envolve testes também. Eventualmente um método com mais de mil linhas vai passar na sua frente e existe uma chance de ele ser privado, e antes de fazer qualquer alteração nele, comece escrevendo testes, renomeie as variaveis para algo mais palatavel e somente então, refatore.
+Como podemos ver, em momento algum eu precisei testar diretamente os métodos privados, afinal, a interface pública da classe, expõe a abstração que o cliente tem interesse, os detalhes que giram em torno dessa abstração precisam ser testadas mudando o input, mas usando o mesmo método público. Então… isso significa que eu não deva testar métodos privados? Não não, segura ai… extremos são ruins, e eu evito me guiar por eles, quando eu desenvolvo, espero seguir um meio termo, e isso envolve testes também. Eventualmente um método com mais de mil linhas vai passar na sua frente e existe uma chance de ele ser privado, e antes de fazer qualquer alteração nele, comece escrevendo testes, renomeie as variaveis para algo mais palatavel e somente então, refatore.
 
 ---
 
