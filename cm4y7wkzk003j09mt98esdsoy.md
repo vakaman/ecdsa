@@ -188,7 +188,7 @@ class BadWordsFilterTest extends TestCase
 }
 ```
 
-Como podemos ver, em momento algum eu precisei testar diretamente os métodos privados, afinal, a interface pública da classe, expõe a abstração que o cliente tem interesse, os detalhes que giram em torno dessa abstração precisam ser testadas mudando o input, mas usando o mesmo método público. Então… isso significa que eu não deva testar métodos privados? Não não, segura ai… extremos são ruins, e eu evito me guiar por eles, quando eu desenvolvo, espero seguir um meio termo, e isso envolve testes também. Eventualmente um método com mais de mil linhas vai passar na sua frente e existe uma chance de ele ser privado, e antes de fazer qualquer alteração nele, comece escrevendo testes, renomeie as variaveis para algo mais palatavel e somente então, refatore.
+Como podemos ver, em momento algum eu precisei testar diretamente os métodos privados, afinal, a interface pública da classe, expõe a abstração que o cliente tem interesse, os detalhes que giram em torno dessa abstração precisam ser testadas mudando o input, mas usando o mesmo método público. Então… isso significa que eu não deva testar métodos privados? Não não, segura ai… extremos são ruins, e eu evito me guiar por eles, quando eu desenvolvo, espero seguir um meio termo, e isso envolve testes também. Eventualmente um método com mais de mil linhas vai passar na sua frente e existe uma chance de ele ser privado, e antes de fazer qualquer alteração nele, comece escrevendo testes com o comportamento do método coberto comece renomeando as variaveis para algo mais palatável, extraia alguns métodos e siga sua refatoração se guiando pelo teste.
 
 ---
 
