@@ -1,5 +1,5 @@
 ---
-title: "Arroz com Feijão: A Base Nutritiva para Projetos que Funcionam"
+title: "Arroz com feijão: A base nutritiva para projetos que funcionam"
 seoTitle: "Arroz com Feijão: A Base Nutritiva para Projetos que Funcionam"
 seoDescription: "O projeto que você trabalha mais parece uma sopa de letrinha? vamos falar sobre empatia!"
 datePublished: Sat Dec 21 2024 13:31:06 GMT+0000 (Coordinated Universal Time)
